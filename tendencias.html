@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <title>Tendencias</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        ul.menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #84AF9B;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        }
+        ul.menu li {float: left;}
+        ul.menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Concert One', cursive;
+        
+        }
+        ul.menu li a:hover:not(.active){background-color:#E4E7D2;}
+        ul.menu li a:hover:not(.active){color:black;}
+        ul.menu li a.active {background-color: #D4E4CC; color: black;}
+        ul.menu li.right {float: right;}
+        @media screen and (max-width: 1024px) {
+        ul.menu li.right, 
+        ul.menu li {float: none;}
+        }
+        .box{
+          position: relative;
+          top: -80px;
+          color: #32423A;
+          font-family: 'Concert One', cursive;
+          font-size: 3.5em;
+          text-align: center;
+        }
+        .encabezado1{
+            text-align: center;
+            margin-top: -50px;
+            margin-bottom: 50px;
+            font-family: 'Concert One', cursive;
+        }
+        h1{
+            font-family: 'Concert One', cursive;
+            font-size: 3.5em;
+        }
+        h3{
+            font-size: 2.5em;
+            font-family: 'Pathway Gothic One', sans-serif;
+        }
+        p{
+            float: left;
+            font-family: 'Pathway Gothic One', sans-serif;
+            font-size: 1.4em;
+            margin-top: 30px;
+            
+        }
+        .imagen1{
+            float: right; 
+        }
+        .imagen1:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen2:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen3:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen4:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen5:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen6:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen7:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen8:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .imagen9:hover{
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transform: scale(1.3);
+            transition: 2s;
+        }
+        .texto1 h3{
+            margin-bottom: -10px;
+        }
+        .texto2 h3{
+            margin-bottom: -10px;
+        }
+        .texto3 h3{
+            margin-bottom: -10px;
+        }
+        .encabezado{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .texto4 h3{
+            margin-bottom: -10px;
+        }
+        .texto5 h3{
+            margin-bottom: -10px;
+        }
+        .texto6 h3{
+            margin-bottom: -10px;
+        }
+        .texto7 h3{
+            margin-bottom: -10px;
+        }
+        .texto8 h3{
+            margin-bottom: -10px;
+        }
+        .texto9 h3{
+            margin-bottom: -10px;
+        }
+        .footer{
+            display: grid;
+            background-color: #84AF9B;
+            padding: 10px;
+            text-align: center;
+            margin:-115px;
+        }
+        .footer h1{
+            font-size: 25px;
+        }
+        .footer p{
+            font-size: 20px;
+        }
+        
+       
+       
+
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a  href="index.html">Inicio</a></li>
+        <li><a class="active" href="tendencias.html">Tendencias</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li ><a href="contacto.html">Contactanos</a></li>
+        <li class="right "><a href="https://es-la.facebook.com/Vogue/"><i class="fab fa-facebook-f"></i></a>
+        <li class="right"><a href="https://www.instagram.com/voguespain/"><i class="fab fa-instagram"></i></a>
+        <li class="right"><a href="https://twitter.com/VogueSpaint"><i class="fab fa-twitter"></i></a>
+        <li class="right"><a href="https://www.youtube.com/user/VogueEspana"><i class="fab fa-youtube"></i></a> 
+        <li class="my-5"></li>
+    </ul>
+    <div class="box ">Tu Blog de Moda</div>
+    <div class="encabezado1">
+        <h1>Tendencias disponibles en moda para este 2021</h1>
+    </div>
+    <div class="container">
+        <div class="texto1">
+            <h3>Vuelven los "felices años 20"</h3>
+            <p>Para aquellas que aman la estética de los 'Felices años 20', esta temporada estarán encantadas con lo que viene.<br> Los vestidos flapper abundan en sedas y encajes de ejecución clásica de las propuestas de Khaite y Kwaidan. <br>Se pueden encontrar versiones más modernas en el nuevo Fendi de Kim Jones y en el nuevo Chloé de Gabriela Hearst. <br>Con capas debajo de abrigos largos en Miu Miu y Paco Rabanne, o con una versión de los 90 con tintes grunge en Coach,<br> estos vestidos inspirados en camisones están hechos para la vida nocturna.</p>
+        </div>
+        <div class="imagen1" >
+            <img src="https://www.denimjeansobserver.com/mag/designer-denim-jeans-fashion/2020-2021/fw/brands-a/atlein-2020-2021-fall-winter-women-runway-paris-fashion-week-lingerie-lace-draped-satin-snake-floral-quilt-denim-jeans-observer-01.jpg" width="260" height="250px">
+         </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto2">
+            <h3>¡Fuera de tono!</h3>
+            <p>La paleta de colores viene más rica que nunca esta temporada y y la saturación cromática tendrá un papel prioritario. <br>El juego de colores es desordenado, ligeramente sesgado e inesperado, un poco como la vida misma.<br> Es mostaza y limón en Jil Sander, rosa chicle y caléndula en Miu Miu, óxido y lavanda en Patou, tonos complementarios<br> y secundarios del Pantone mezclados con acierto.</p>
+        </div>
+        <div class="imagen2" style="margin-left: 850px;">
+            <img src="https://i2.wp.com/godustyle.com/wp-content/uploads/2020/10/versace-spring-summer-2021-fashion-look-style-details-accessories-jewelry-shoes-bags-mfw-moda-verano-godustyle.jpg?fit=1500%2C1060&ssl=1" width="300px" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto3">
+            <h3>Todo al negro</h3>
+            <p>Los LBD son perennes; nunca pasarán de moda, no importa cuántas veces podamos decir que el negro ha vuelto. <br>No se han ido y nunca lo hará. Pero lo que cambia es la forma. Para el otoño de 2021, la tendencia para el día <br>son siluetas cortas y súper ajustadas. Desde vestidos de esmoquin en Fashion East hasta siluetas babydoll <br> en Christian Dior.</p>
+        </div>
+        <div class="imagen3" style="margin-left: 850px;">
+            <img src="https://i.blogs.es/7094ec/dolce-gabbana-aw-2020-2021/450_1000.jpeg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="encabezado">
+            <h1>Maquillaje para este 2021</h1>
+        </div>
+        <div class="texto4">
+            <h3>Soft Glow Skin</h3>
+            <p>Ni completamente mate ni tampoco wet. La piel más popular para este momento del año será una con aspecto <br> saludable y a la vez muy luminosa.También se vuelve obligatoria la preparación rigurosa del cutis antes del maquillaje.</p>
+        </div>
+        <div class="imagen4" style="margin-left: 850px;">
+            <img src="https://www.bollytrend.net/wp-content/uploads/2021/04/81952293.jpg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto5">
+            <h3>Cejas Destacadas</h3>
+            <p>Nuevamente las cejas se convierten en protagonistas. Esta temporada las veremos muy prolijas, naturales o definidas,<br> pero muy cuidadas y potenciadas con productos que aportan color y fijación.</p>
+        </div>
+        <div class="imagen5" style="margin-left: 850px;">
+            <img src="https://www.bettinafrumboli.com/wp-content/uploads/2020/10/tendencias-maquillaje-primavera-verano-2021-cejas.jpg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto6">
+            <h3>Delineados Graficos</h3>
+            <p>Junto a los populares cat eyes y winged eyes, los delineados no tradicionales siguen vigentes. Resaltan las formas <br>geométricas, las líneas variadas y los bold liner gruesos e intensos como alternativas para destacar la mirada<br> esta temporada.</p>
+        </div>
+        <div class="imagen6" style="margin-left: 850px;">
+            <img src="https://www.semana.es/wp-content/uploads/2020/08/standard_resolution-min-696x522.jpg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="encabezado">
+            <h1>Tendencias de cabello para este 2021</h1>
+        </div>
+        <div class="texto7">
+            <h3>Mullets</h3>
+            <p>Sí, el mullet proviene directamente de los años 80, pero como mera inspiración. No hay porque tomárselo tan literal. <br>Una versión definitivamente más moderna y relajada, en algunos casos más larga y con una onda suave que enmarca <br>el rostro.</p>
+        </div>
+        <div class="imagen7" style="margin-left: 850px;">
+            <img src="https://data.whicdn.com/images/348277384/original.jpg" width="auto" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto8">
+            <h3>Corte shaggy</h3>
+            <p>Los años 70 suelen ser inspiradores cuando llega el otoño y este, no va a ser menos. Este corte, que ha sido tan <br>demandado, volverá a imponerse por sus múltiples posibilidades de peinado. Perfecto para secar al aire, para <br>dejarlo natural, para peinar con calor.Aporta juventud y frescura al rostro.</p>
+        </div>
+        <div class="imagen8" style="margin-left: 850px;">
+            <img src="https://www.hogarmania.com/archivos/201707/shaggy2-1280x720x80xX.jpg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="texto9">
+            <h3>Pixie </h3>
+            <p>Recuerda que hay muchos estilos que salen de él, algunos son con los lados estrechamente más recortados<br> ​​y todo el volumen se encuentra en la parte superior lejos de la cara; mientras que otros tienen un flequillo marcado,<br> con una corona, lados y área de la nuca más cortos y fragmentados. Un estilo vintage que siempre regresa y que es <br>sumamente fácil de mantener. </p>
+        </div>
+        <div class="imagen9" style="margin-left: 850px;">
+            <img src="https://i.ytimg.com/vi/m46UKmv33TA/maxresdefault.jpg" width="300" height="250px">
+        </div>
+        <div class="raya">
+            <img src="imagenes/raya.PNG">
+        </div>
+        <div class="footer" style="margin-top: 10px;">
+            <h1>Acerca de nosotros</h1>
+            <p>Somos un blog de moda y belleza que busca la mejor información en estos temas para nuestros visitantes. ¡Mantente al tanto con nosotros!</p>
+            <h1>"La elegancia es una actitud"- Karl Lagerfeld, Diseñador </h1>
+            <p>© 2021 Tu blog de moda</p>
+        </div>
+    </div>
+    
+
+    
+
+
+</body>
+</html>

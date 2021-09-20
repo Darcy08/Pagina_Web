@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <title>Tips</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+
+        ul.menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #84AF9B;
+        font-size: 1.5em;
+        padding-bottom: 35px;
+        }
+        ul.menu li {float: left;}
+        ul.menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Concert One', cursive;
+        
+        }
+        ul.menu li a:hover:not(.active){background-color:#E4E7D2;}
+        ul.menu li a:hover:not(.active){color:black;}
+        ul.menu li a.active {background-color: #D4E4CC; color:black; }
+        ul.menu li.right {float: right;}
+        @media screen and (max-width: 1024px) {
+        ul.menu li.right, 
+        ul.menu li {float: none;}
+        }
+        .box{
+          position: relative;
+          top: -90px;
+          color: #32423A;
+          font-family: 'Concert One', cursive;
+          font-size: 3.5em;
+          text-align: center;
+        }
+
+        h1{
+            font-family: 'Concert One', cursive;
+            font-size: 4.0em;
+            color: #536D61;
+        }
+        h2{
+            font-family: 'Concert One', cursive;
+            font-size: 3.0em;
+            color: #32423A;
+            text-align: center;
+            position: relative;
+            left: -25px;
+        }
+        h3{
+            font-family: 'Concert One', cursive;
+            font-size: 1.8em;
+            color: #32423A;
+            text-align: center;
+        }
+        p{
+            font-family: 'Pathway Gothic One', sans-serif;
+            font-size: 1.5em;
+            color: black;
+        }
+
+        .txt1{
+            position: relative;
+            bottom: 70px;
+            left: -65px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag1{
+          position: absolute;
+          left: 710px;
+          bottom: 110px;
+          margin: 70px; 
+        }
+        .txt2{
+            position: relative;
+            top: 10px;
+            left: -20px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag2{
+          position: absolute;
+          left: 470px;
+          top: 1180px;
+          margin: 70px; 
+        }
+        .txt3{
+            position: relative;
+            top: 380px;
+            left: -30px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag3{
+          position: absolute;
+          left: 420px;
+          top: 2100px;
+          margin: 70px; 
+        }
+        .txt4{
+            position: relative;
+            top: 778px;
+            left: 55px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag4{
+          position: absolute;
+          left: 420px;
+          top: 2920px;
+          margin: 70px; 
+        }
+        .txt5{
+            position: relative;
+            top: 1170px;
+            left: 415px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag5{
+          position: relative;
+          left: 20px;
+          top: 920px;
+          margin: 70px; 
+        }
+        .txt6{
+            position: relative;
+            top: 868px;
+            left: -15px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag6{
+          position: absolute;
+          left: 420px;
+          top: 3820px;
+          margin: 70px; 
+        }
+        .txt7{
+            position: relative;
+            top: 1158px;
+            left: -15px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag7{
+          position: absolute;
+          left: 420px;
+          top: 4340px;
+          margin: 70px; 
+        }
+        .txt8{
+            position: relative;
+            top: 1448px;
+            left: -15px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag8{
+          position: absolute;
+          left: 420px;
+          top: 4860px;
+          margin: 70px; 
+        }
+        .txt9{
+            position: relative;
+            top: 1758px;
+            left: -15px;
+            float: left;
+            padding: 25px;
+            margin-left: 90px;
+        }
+        .imag9{
+          position: absolute;
+          left: 430px;
+          top: 5440px;
+          margin: 70px; 
+        }
+        .footer{
+            position: absolute;
+            left: 7px;
+            top: 5950px;
+            display: grid;
+            background-color: #84AF9B;
+            padding: 10px;
+            text-align: center;
+            width: 98vw;
+          
+        }
+        .footer h1{
+            font-size: 25px;
+        }
+        .footer p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a  href="index.html">Inicio</a></li>
+        <li><a  href="tendencias.html">Tendecias</a></li>
+        <li><a class="active" href="tips.html">Tips</a></li>
+        <li ><a href="contacto.html">Contactanos</a></li>
+        <li class="right "><a href="https://es-la.facebook.com/Vogue/"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="right"><a href="https://www.instagram.com/voguespain/"><i class="fab fa-instagram"></i></a></li>
+        <li class="right"><a href="https://twitter.com/VogueSpaint"><i class="fab fa-twitter"></i></a></li>
+        <li class="right"><a href="https://www.youtube.com/user/VogueEspana"><i class="fab fa-youtube"></i></a></li>
+        <li class="my-5"></li> 
+    </ul>
+    <div class="box ">Tu Blog de Moda</div>
+    <div class="container">
+        <div class="txt1">
+            <h1>CONSEJOS DE<br> MAQUILLAJES</h1>
+            <p>Consejos de maquillaje e instrucciones paso a paso para ayudarte a dominar<br> los looks de belleza del momento.</p>
+        </div>
+        <div class="imag1">
+            <img src="https://aws.glamour.mx/prod/designs/v1/assets/400x400/253655.jpg"  width="385px" height="250px">
+        </div>
+        <div class="txt2">
+            <h2>Tips de los labios defuminados </h2>
+            <p>Esta nueva moda no se trata de la apariencia de labios con presencia protagónica que vivimos hace unas temporadas, estos labios quieren dar la ilusión de que acabas de tomar un helado de fresa o de que acabas de besar a alguien… sexy, ¿verdad?<br>
+            Para adueñarte de esta tendencia debes tener muy en cuenta la importancia de unos labios saludables, así que haz una exfoliación suave y luego aplica una capa de bálsamo, y listo, ya estás preparada para el makeup.</p>
+            <h3>Pasos a seguir para conseguir esos labios:</h3>
+            <p>1. Elige el tono más suave de la gamade labiales que tengas, y pasa a maquillar tu boca a la inversa de como lo harías normalmente, de afuera hacia adentro. Es fundamental que no apliques más de una capa porque el efecto recargado es lo opuesto a lo que buscamos esta vez.<br>
+
+                2. Con el pigmento Treat Yourself  por ejemplo si quieres unos labios más vibrantes o con el Make It Happend para un acabado más cerca de los new nudes, tu puedes elegir cualquier marca de labiales que tengas, aplica producto en el centro de tus labios, pero solo en donde tus labios se tocan. <br>
+                
+                3. Con las yemas de tus dedos empuja el pigmento hacia los extremos y hacia adentro.<br>
+                
+                Este look tan natural te durará muchas horas, así que puedes dejar suelta tu personalidad y olvidarte del makeup hasta llegar a casa. ¡Y bienvenidos labios difuminados!</p>
+        </div>
+        <div class="imag2">
+            <img src="https://i.pinimg.com/564x/79/03/74/79037426a5023e54bbfd263effd45b34.jpg" height="310px">
+        </div>
+    <div class="txt3">
+        <h2>Tips para maquillar los ojos mas grandes </h2>
+            <p>1. Sombras de larga duración: Para que las sombras tengan mayor duración, lo mejor es usar como primer paso un poco de tu concealer favorito. <br>Fíjate que los colores permanecerán mucho más tiempo del que imaginabas.Nosotras te recomendamos que utilices una gama de colores claros, <br>que le prestes especial atención a los acabados metalizados, y que destaques el lagrimal a full.<br>
+
+                2. Delineador blanco para alto impacto:Un gran secreto profesional tiene que ver con el delineador, ¡pero el delineador blanco!. El truco con<br> este producto es usarlo sobre la línea de agua, llegando hasta el lagrimal. Este paso es, probablemente,<br> el más importante en la misión de crear la ilusión de que tus ojos son más grandes y luminosos. <br>
+                
+                3. Pestañas con volumen:
+                Ya sabes que es clave poseer una máscara de pestañas que te haga la mayor cantidad de favores,<br> ¿no es cierto? Entonces tienes que elegir a la más generosa de todas, y eso es lo necesario para tener una mirada abierta increíble..<br>
+                
+                Así que ahora ya sabes, puedes conseguir unos ojazos siguiendo este instructivo ¿a quién le harás “ojitos” ahora?!</p>
+    </div>
+    <div class="imag3">
+        <img src="https://i.pinimg.com/564x/ce/79/35/ce79357a6eb338111da484b0421c4d5f.jpg" width="375px" height="360px">
+    </div>
+
+<div class="txt4">
+    <h2>Tips para que tu base dure mas </h2>
+        <p>1. Manten tu piel limpia.<br>
+            2. Utiliza un hidratante <br>
+            3. Tratamiento exfoliante una vez por semana.<br>
+            4. Incorpora una prebase o primer.<br>
+            5. Elige una base de mucha cobertura y duradera.<br>
+            6. Incorpora a tu rutina el polvo matificante.<br>
+            7. Utiliza un fijador de maquillaje.<br>
+            No quedan dudas ni excusas, siguiendo estos consejos tu base durará más que nunca. </p>
+</div>
+<div class="imag4">
+    <img src="https://i.pinimg.com/564x/0e/6d/ec/0e6dec127c990a6e82d6e3bf0ee94e0e.jpg" width="375px" height="300px">
+</div>
+<div class="txt5">
+    <h1>CONSEJOS DE<br> COMO VESTIR BIEN</h1>
+    <p>Trucos de estilo para aprender a vestir como las que más saben de moda.</p>
+</div>
+<div class="imag5">
+    <img src="https://www.instyle.es/medio/2020/05/18/tendencias-chicas-curvy_e381cc5f_812x541.jpg"  width="385px" height="250px">
+</div>
+<div class="txt6">
+    <h2>Cómo llevar traje sin parecer muy formal </h2>
+        <p>Aunque el traje está asociado a los 'looks' de oficina más formales, puedes optar por un dos piezas en colores vivos con zapatillas para reducir el efecto de este registro. Si no, también puedes combinar los pantalones de traje con un jersey o la americana con vaqueros. </p>
+</div>
+<div class="imag6">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/6-traje-1572947763.jpg?crop=1xw:1xh;center,top&resize=980:*" width="375px" height="290px">
+</div>
+<div class="txt7">
+    <h2>Cómo llevar el jersey a los hombros</h2>
+        <p>Cuando nos estorba el jersey que llevamos puesto, lo más habitual es atarlo a la cintura o colgarlo del bolso... ¡ERROR! 'Fashion insiders' como Olivia Palermo te proponen llevarlo a los hombros de la manera más 'chic' posible. Tanto que parece que has salido así de casa. </p>
+</div>
+<div class="imag7">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/11-jersey-hombros-1572947764.jpg?crop=1xw:1xh;center,top&resize=980:*" width="375px" height="290px">
+</div>
+<div class="txt8">
+    <h2>Cómo combinar accesorios</h2>
+        <p>Cuida mucho la elección de los accesorios. Si vas a lucir una diadema protagonista, apuesta por pendientes minimalistas. Si, por el contrario, quieres lucir más de una accesorio, procura que sigan una misma línea estética, por ejemplo, el color. </p>
+</div>
+<div class="imag8">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/13-cuida-los-accesorios-1572947764.jpg?crop=1xw:1xh;center,top&resize=980:*" width="375px" height="290px">
+</div>
+<div class="txt9">
+    <h2>Cómo combinar los colores pastel</h2>
+        <p>Las tendencias del color amarillo pastel o del lila han conquistado a las reinas del 'street style'. En el caso del primero, por ser una alternativa perfecta a los tonos neutros y, en el del segundo, por ser el tono 'candy' favorito de las 'influencers'. En primavera, estos tonos se lucen a discreción con otros de la misma gama. Durante los meses más fríos, los tonos pastel iluminan los estilismos funcionando como contrapunto perfecto de los colores más apagados. </p>
+</div>
+<div class="imag9">
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-butter-yellow2-1602752961.jpg?crop=1xw:1xh;center,top&resize=980:*" width="355px" height="350px">
+</div>
+<div class="footer" style="margin-top: 10px;">
+    <h1>Acerca de nosotros</h1>
+    <p>Somos un blog de moda y belleza que busca la mejor información en estos temas para nuestros visitantes. ¡Mantente al tanto con nosotros!</p>
+    <h1>"La elegancia es una actitud"- Karl Lagerfeld, Diseñador </h1>
+    <p>© 2021 Tu blog de moda</p>
+</div>
+</div>
+</body>
+</html>

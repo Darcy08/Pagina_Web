@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <style>
+       *{
+          box-sizing: border-box;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/4530872/pexels-photo-4530872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+            color:black;
+            font-family: 'Pathway Gothic One', sans-serif;
+        }
+        ul.menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #84AF9B;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+        }
+        ul.menu li {float: left;}
+        ul.menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Concert One', cursive;
+        
+        }
+        ul.menu li a:hover:not(.active){background-color:#E4E7D2;}
+        ul.menu li a:hover:not(.active){color:black;}
+        ul.menu li a.active {background-color: #D4E4CC; color: black;}
+        ul.menu li.right {float: right;}
+        @media screen and (max-width: 1024px) {
+        ul.menu li.right, 
+        ul.menu li {float: none;}
+        }
+        .box{
+          position: relative;
+          top: -80px;
+          color: #32423A;
+          font-family: 'Concert One', cursive;
+          font-size: 3.5em;
+          text-align: center;
+        }
+        [class*='col-']{
+          float:left;
+          padding: 15px;
+          
+        }
+        .row::after{
+          content: '';
+          display: table;
+          clear: both;
+        }
+        .container{
+            font-size: 1.5em;
+            max-width: 850px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 20px rgba(220,220,220,0.8);
+        }
+       
+        /*celulares*/
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.66%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}  
+        
+        /*tablet*/
+        @media only screen and (min-width:668px){
+          .col-m-1{width: 8.33%;}
+          .col-m-2{width: 16.66%;}
+          .col-m-3{width: 25%;}
+          .col-m-4{width: 33.33%;}
+          .col-m-5{width: 41.66%;}
+          .col-m-6{width: 50%;}
+          .col-m-7{width: 58.33%;}
+          .col-m-8{width: 66.66%;}
+          .col-m-9{width: 75%;}
+          .col-m-10{width: 83.33%;}
+          .col-m-11{width: 91.66%;}
+          .col-m-12{width: 100%;}  
+          
+        }
+        /*pc*/
+        @media only screen and (min-width:768px){
+          .col-g-1{width: 8.33%;}
+          .col-g-2{width: 16.66%;}
+          .col-g-3{width: 25%;}
+          .col-g-4{width: 33.33%;}
+          .col-g-5{width: 41.66%;}
+          .col-g-6{width: 50%;}
+          .col-g-7{width: 58.33%;}
+          .col-g-8{width: 66.66%;}
+          .col-g-9{width: 75%;}
+          .col-g-10{width: 83.33%;}
+          .col-g-11{width: 91.66%;}
+          .col-g-12{width: 100%;} 
+         
+        }
+        h1{
+            text-align: center;
+        }
+        h1 span{
+            color: #F38631;
+        }
+        @media all and (min-width:768px){
+            .container{
+                max-width: 850px;
+                height: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 0 20px rgba(220,220,220,0.8);
+            }
+        }
+        .container{
+            background-color: #E0E4CD;
+            
+        }
+        input, textarea{
+            width: 100%;
+        }
+        input[type=text], input[type=email], textarea{
+            background-color: transparent;
+            color:rgb(70, 65, 65);
+            padding:10px 15px;
+            border:none;
+            outline: none;
+            border-bottom: 1px solid #F38631 ;
+        }
+        input[type=submit]{
+            padding: 2px 2px;
+            background-color: #F38631;
+            color:white;
+            text-transform: uppercase;
+            border:none;
+            outline: none;
+        }
+        input[type=submit]:hover{
+            background-color:#63320d ;
+        }
+        .info{
+            background-color:#42574E;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a  href="index.html">Inicio</a></li>
+        <li><a  href="tendencias.html">Tendencias</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li ><a class="active" href="contacto.html">Contactanos</a></li>
+        <li class="right "><a href="https://es-la.facebook.com/Vogue/"><i class="fab fa-facebook-f"></i></a>
+        <li class="right"><a href="https://www.instagram.com/voguespain/"><i class="fab fa-instagram"></i></a>
+        <li class="right"><a href="https://twitter.com/VogueSpaint"><i class="fab fa-twitter"></i></a>
+        <li class="right"><a href="https://www.youtube.com/user/VogueEspana"><i class="fab fa-youtube"></i></a> 
+        <li class="my-5"></li>
+    </ul>
+    <div class="box ">Tu Blog de Moda</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-g-8 col-m-12">
+                <h3>¡Contáctanos!</h3>
+                <div class="col-g-6 col-m-6 col-12">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="col-g-6 col-m-6 col-12">
+                    <label for="mail">Correo Electrónica</label>
+                    <input type="email" id="mail" name="mail">
+                </div>
+                <div class="col-g-6 col-m-6 col-12">
+                    <label for="phone">Celular</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="col-g-6 col-m-6 col-12">
+                    <label for="affair">Asunto</label>
+                    <input type="text" id="affair" name="affair">
+                </div>
+                <div class="col-g-12 col-m-12 col-12">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows=1></textarea>
+                </div>
+                <div class="col-g-12 col-m-12 col-12">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+            <div class="col-g-4 col-m-12 info">
+                <h3>Mas información</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Comayagua</p>
+                <p><i class="fas fa-phone"></i> (504) 9877-6522</p>
+                <p><i class="fas fa-envelope-open-text"></i> tublogdemodacontact@gmail.com</p>
+                <p>¡Mantente al tanto con nosotros!</p>
+                <p>tublogdemoda.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
